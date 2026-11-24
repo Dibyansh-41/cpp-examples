@@ -14,7 +14,7 @@ struct mst {
 
 mst MST_Array[V];
 
-void initilize() {
+void initialize() {
     for (int i = 0; i < V; i++) {
         MST_Array[i].visited = false;
         MST_Array[i].key = INFINITY;  // considering INFINITY as inifinity
